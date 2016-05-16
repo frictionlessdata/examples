@@ -1,0 +1,33 @@
+{
+  "name": "gdp",
+  "title": "Country, Regional and World GDP (Gross Domestic Product) for 2014 (Example)",
+  "description": "Example Data Package providing Country, regional and world GDP in current US Dollars ($)",
+  "resources": [
+    {
+      "name": "gdp",
+      "path": "data/gdp_2014.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Country Name",
+            "type": "string"
+          },
+          {
+            "name": "Country Code",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "date",
+            "format": "fmt:%Y"
+          },
+          {
+            "name": "Value",
+            "description": "GDP in current USD",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ]
+}
