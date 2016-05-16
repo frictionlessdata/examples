@@ -1,0 +1,61 @@
+{
+  "name": "ex-tabular-multiple-resources",
+  "resources": [
+    {
+      "name": "countries-using-usd-and-gbp",
+      "path": "countries-using-usd-and-gbp.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 515,
+      "schema": {
+        "fields": [
+          {
+            "name": "name",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "currency_alphabetic_code",
+            "type": "string",
+            "description": ""
+          }
+        ],
+        "foreignKeys": [
+          {
+            "fields": "currency_alphabetic_code",
+            "reference": {
+              "resource": "currencies",
+              "fields": "currency_alphabetic_code"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "currencies",
+      "path": "currencies.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 78,
+      "schema": {
+        "fields": [
+          {
+            "name": "currency_alphabetic_code",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "currency",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "symbol",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    }
+  ]
+}
