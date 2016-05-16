@@ -1,0 +1,11 @@
+{
+  "name": "text-file",
+  "title": "Text File",
+  "resources": [
+    {
+      "name": "text-file",
+      "path": "text-file.txt"
+    }
+  ],
+  "description": "Example Data Package of text file."
+}
