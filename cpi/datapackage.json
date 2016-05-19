@@ -33,7 +33,7 @@
           {
             "name": "Year",
             "type": "date",
-            "format": "yyyy"
+            "format": "fmt:%Y"
           },
           {
             "name": "CPI",
