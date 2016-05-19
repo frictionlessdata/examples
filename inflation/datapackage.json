@@ -4,6 +4,7 @@
   "description": "Annual growth rate of the GDP implicit deflator and Inflation measured by the consumer price inde",
   "resources": [
     {
+      "name": "inflation-gdp",
       "path": "data/inflation-gdp.csv",
       "schema": {
         "fields": [
