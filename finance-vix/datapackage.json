@@ -1,0 +1,42 @@
+{
+  "name": "finance-vix",
+  "title": "VIX - CBOE Volatility Index",
+  "resources": [
+    {
+      "name": "vix-daily",
+      "path": "data/vix-daily.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Date",
+            "type": "datetime",
+            "description": ""
+          },
+          {
+            "name": "VIXOpen",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "VIXHigh",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "VIXLow",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "VIXClose",
+            "type": "number",
+            "description": ""
+          }
+        ],
+        "primaryKey": "Date"
+      }
+    }
+  ]
+}
