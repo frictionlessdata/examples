@@ -1,5 +1,7 @@
 # Example Data Packages
 
+[![goodtables.io](https://goodtables.io/badge/github/frictionlessdata/example-data-packages.svg)](https://goodtables.io/github/frictionlessdata/example-data-packages)
+
 **These examples are outdated. Please see the current [specs](http://specs.frictionlessdata.io/) site for updated examples)**
 
 These Data Packages are used primarily as reference material for the [Guides](http://frictionlessdata.io/guides/) section for the [Frictionless Data](http://frictionlessdata.io/) website.
