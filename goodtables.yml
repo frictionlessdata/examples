@@ -1,0 +1,3 @@
+files: '*'
+settings:
+  error_limit: 10
