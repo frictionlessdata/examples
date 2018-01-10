@@ -1,0 +1,31 @@
+{
+  "name": "geo-location-uri",
+  "profile": "tabular-data-package",
+  "resources": [{
+    "name": "office-locations",
+    "title": "Office Locations",
+    "path": "data/office-locations.csv",
+    "profile": "tabular-data-resource",
+    "format": "csv",
+    "mediatype": "text/csv",
+    "encoding": "utf-8",
+    "schema": {
+      "fields": [{
+        "name": "Office",
+        "type": "string",
+        "format": "default",
+        "constraints": {
+          "required": true
+        }
+      }, {
+        "name": "Location uri",
+        "type": "string",
+        "format": "uri",
+        "constraints": {
+          "required": true
+        },
+        "description": "Location uri referencing the OpenStreetMap Nominatim service https://nominatim.openstreetmap.org"
+      }]
+    },
+  }],
+}

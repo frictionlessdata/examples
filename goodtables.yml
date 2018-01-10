@@ -16,7 +16,8 @@
 # validate datapackages that reference csv files
 #
 datapackages:
+  - geo-lat-lon-as-numbers/datapackage.json
+  - geo-location-uri.json
   - geopoint-array/datapackage.json
   - geopoint-default/datapackage.json
   - geopoint-object/datapackage.json
-  - geo-lat-lon-as-numbers/datapackage.json
