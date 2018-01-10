@@ -32,7 +32,7 @@
         },
         "title": "Office"
       }, {
-        "name": "Locations [Lon, Lat]",
+        "name": "Location",
         "type": "geopoint",
         "format": "object",
         "constraints": {
