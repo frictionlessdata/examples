@@ -1,0 +1,53 @@
+{
+  "name": "office-locations",
+  "title": "Office Locations",
+  "description": "Office Locations as a Latitude, Longitude columns",
+  "profile": "tabular-data-package",
+  "licenses": [{
+    "id": "CC-BY-4.0",
+    "title": "Creative Commons Attribution 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  }],
+  "resources": [{
+    "name": "offices",
+    "path": "data/office-locations.csv",
+    "profile": "tabular-data-resource",
+    "primaryKeys": ["office"],
+    "format": "csv",
+    "mediatype": "text/csv",
+    "encoding": "utf-8",
+    "licenses": [{
+      "id": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }],
+    "schema": {
+      "fields": [{
+        "name": "Office",
+        "type": "string",
+        "format": "default"
+      }, {
+        "name": "Lat",
+        "title": "Latitude",
+        "type": "number",
+        "format": "default",
+        "constraints": {
+          "required": true,
+          "minimum": "-90",
+          "maximum": "90"
+        }
+      }, {
+        "name": "Lon",
+        "title": "Longitude",
+        "type": "number",
+        "format": "default",
+        "constraints": {
+          "required": true,
+          "minimum": "-180",
+          "maximum": "180"
+        }
+      }],
+      "missingValues": [""]
+    }
+  }]
+}
