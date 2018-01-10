@@ -17,7 +17,7 @@
 #
 datapackages:
   - geo-lat-lon-as-numbers/datapackage.json
-  - geo-location-uri.json
+  - geo-location-uri/datapackage.json
   - geopoint-array/datapackage.json
   - geopoint-default/datapackage.json
   - geopoint-object/datapackage.json
