@@ -19,13 +19,13 @@
         }
       }, {
         "name": "Location uri",
+        "description": "Location uri referencing the OpenStreetMap Nominatim service https://nominatim.openstreetmap.org",
         "type": "string",
         "format": "uri",
         "constraints": {
           "required": true
-        },
-        "description": "Location uri referencing the OpenStreetMap Nominatim service https://nominatim.openstreetmap.org"
+        }
       }]
-    },
-  }],
+    }
+  }]
 }
