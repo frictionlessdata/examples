@@ -71,10 +71,7 @@
       }, {
         "name": "location",
         "type": "geopoint",
-        "format": "object",
-        "constraints": {
-          "required": true
-        }
+        "format": "object"
       }]
     }
   }]

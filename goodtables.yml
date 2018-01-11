@@ -21,4 +21,4 @@ datapackages:
   - geo-location-uri/datapackage.json
   - geopoint-array/datapackage.json
   - geopoint-default/datapackage.json
-#  - geopoint-object/datapackage.json
+  - geopoint-object/datapackage.json
