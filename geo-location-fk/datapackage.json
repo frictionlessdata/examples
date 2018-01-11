@@ -7,6 +7,7 @@
     "path": "https://creativecommons.org/licenses/by/4.0/"
   }],
   "resources": [{
+    "path": "data/offices.csv",
     "name": "offices",
     "title": "Offices",
     "description": "Hot Desk Offices",
@@ -38,19 +39,17 @@
         }
       }]
     },
+    "primaryKeys": ["Office"],
     "foreignKeys": [{
       "fields": ["Town"],
       "reference": {
-        "resource": "gazetter",
+        "resource": "gazetteer",
         "fields": ["city-or-town"]
       }
-    }],
-    "primaryKeys": ["Office"],
-    "path": "data/offices.csv"
+    }]
   }, {
+    "path": "data/gazetteer.csv",
     "name": "gazetteer",
-    "primaryKeys": ["city-or-town"],
-    "path": "data/gazetter.csv",
     "profile": "tabular-data-resource",
     "encoding": "utf-8",
     "format": "csv",
@@ -72,7 +71,8 @@
         "name": "location",
         "type": "geopoint",
         "format": "object"
-      }]
+      }],
+    "primaryKeys": ["city-or-town"]
     }
   }]
 }
