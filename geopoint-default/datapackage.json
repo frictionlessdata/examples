@@ -4,11 +4,10 @@
   "description": "Office Locations as a Geopoint Default",
   "profile": "tabular-data-package",
   "licenses": [{
-    "id": "CC-BY-4.0",
-    "title": "Creative Commons Attribution 4.0",
-    "url": "https://creativecommons.org/licenses/by/4.0/"
-  }],
-  "resources": [{
+    "id": "CC0-1.0",
+    "title": "CC0 1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }],  "resources": [{
     "name": "offices",
     "path": "data/office-locations.csv",
     "profile": "tabular-data-resource",
@@ -17,9 +16,9 @@
     "mediatype": "text/csv",
     "encoding": "utf-8",
     "licenses": [{
-      "id": "CC-BY-4.0",
-      "title": "Creative Commons Attribution 4.0",
-      "url": "https://creativecommons.org/licenses/by/4.0/"
+      "id": "CC0-1.0",
+      "title": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
     }],
     "schema": {
       "fields": [{
