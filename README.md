@@ -1,7 +1,5 @@
 # Example Data Packages
 
-*This is the README for the example data package repository.*
-
 ![goodtables.io](https://goodtables.io/badge/github/frictionlessdata/example-data-packages.svg)
 
 This repository contains example data packages to help you learn about [Frictionless Data](https://frictionlessdata.io/). The example data packages:
