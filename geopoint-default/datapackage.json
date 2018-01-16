@@ -1,0 +1,43 @@
+{
+  "name": "office-locations",
+  "title": "Office Locations",
+  "description": "Office Locations as a Geopoint Default",
+  "profile": "tabular-data-package",
+  "licenses": [{
+    "id": "CC0-1.0",
+    "title": "CC0 1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }],  "resources": [{
+    "name": "offices",
+    "path": "data/office-locations.csv",
+    "profile": "tabular-data-resource",
+    "primaryKeys": ["office"],
+    "format": "csv",
+    "mediatype": "text/csv",
+    "encoding": "utf-8",
+    "licenses": [{
+      "id": "CC0-1.0",
+      "title": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }],
+    "schema": {
+      "fields": [{
+        "name": "Office",
+        "type": "string",
+        "format": "default",
+        "constraints": {
+          "required": true,
+          "unique": true
+        },
+        "title": "Office"
+      }, {
+        "name": "Locations (Lon, Lat)",
+        "type": "geopoint",
+        "format": "default",
+        "constraints": {
+          "required": true
+        }
+      }]
+    }
+  }]
+}

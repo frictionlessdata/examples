@@ -1,0 +1,41 @@
+{
+  "name": "geo-location-uri",
+  "profile": "tabular-data-package",
+  "licenses": [{
+    "id": "CC0-1.0",
+    "title": "CC0 1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }],
+  "resources": [{
+    "name": "office-locations",
+    "title": "Office Locations",
+    "path": "data/office-locations.csv",
+    "profile": "tabular-data-resource",
+    "format": "csv",
+    "mediatype": "text/csv",
+    "encoding": "utf-8",
+    "licenses": [{
+      "id": "CC0-1.0",
+      "title": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }],
+    "schema": {
+      "fields": [{
+        "name": "Office",
+        "type": "string",
+        "format": "default",
+        "constraints": {
+          "required": true
+        }
+      }, {
+        "name": "Location uri",
+        "description": "Location uri referencing the OpenStreetMap Nominatim service https://nominatim.openstreetmap.org",
+        "type": "string",
+        "format": "uri",
+        "constraints": {
+          "required": true
+        }
+      }]
+    }
+  }]
+}

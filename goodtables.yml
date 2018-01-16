@@ -1,3 +1,24 @@
-files: '*'
-settings:
-  error_limit: 10
+# .goodtables.yml should conform to the format at https://github.com/frictionlessdata/goodtables.io/blob/master/goodtablesio/schemas/job-conf.yml
+
+# validate all csv files without reference to the datapackages e.g.
+#
+# files: '*.csv'
+#   settings:
+#     error_limit: 10
+
+# validate a mixture of csv files optionally with a tableschema, e.g.
+#
+# files:
+#  - source: australian-open-data-portals/australian-open-data-portals.csv
+#    schema: australian-open-data-portals/tableschema.json
+#  - source: pathway/data/all_organisations_by_country.csv
+
+# validate datapackages that reference csv files
+#
+datapackages:
+  - geo-lat-lon-as-numbers/datapackage.json
+  - geo-location-fk/datapackage.json
+  - geo-location-uri/datapackage.json
+  - geopoint-array/datapackage.json
+  - geopoint-default/datapackage.json
+  - geopoint-object/datapackage.json

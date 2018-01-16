@@ -1,0 +1,78 @@
+{
+  "name": "geo-location-fk",
+  "profile": "tabular-data-package",
+  "licenses": [{
+    "id": "CC0-1.0",
+    "title": "CC0 1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }],
+  "resources": [{
+    "path": "data/offices.csv",
+    "name": "offices",
+    "title": "Offices",
+    "description": "Hot Desk Offices",
+    "profile": "tabular-data-resource",
+    "encoding": "utf-8",
+    "format": "csv",
+    "mediatype": "text/csv",
+    "licenses": [{
+      "id": "CC0-1.0",
+      "title": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }],
+    "schema": {
+      "fields": [{
+        "name": "Office",
+        "title": "Office Name",
+        "description": "Hot Desk Offices",
+        "type": "string",
+        "format": "default",
+        "constraints": {
+          "required": true
+        }
+      }, {
+        "name": "Town",
+        "type": "string",
+        "format": "default",
+        "constraints": {
+          "required": true
+        }
+      }]
+    },
+    "primaryKeys": ["Office"],
+    "foreignKeys": [{
+      "fields": ["Town"],
+      "reference": {
+        "resource": "gazetteer",
+        "fields": ["city-or-town"]
+      }
+    }]
+  }, {
+    "path": "data/gazetteer.csv",
+    "name": "gazetteer",
+    "profile": "tabular-data-resource",
+    "encoding": "utf-8",
+    "format": "csv",
+    "mediatype": "text/csv",
+    "licenses": [{
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }],
+    "schema": {
+      "fields": [{
+        "name": "city-or-town",
+        "type": "string",
+        "format": "default",
+        "constraints": {
+          "required": true
+        }
+      }, {
+        "name": "location",
+        "type": "geopoint",
+        "format": "object"
+      }],
+    "primaryKeys": ["city-or-town"]
+    }
+  }]
+}
