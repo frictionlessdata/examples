@@ -111,11 +111,9 @@ We value all types of contributions:
 - [issues](https://github.com/frictionlessdata/example-data-packages/issues) and [requests](https://github.com/frictionlessdata/example-data-packages/issues)
 - code
 
-We thank the generous [contributors](https://github.com/your/project/contributors) to this project.
+We thank the generous [contributors](https://github.com/frictionlessdata/example-data-packages/graphs/contributors) to this project.
 
 To join them, please read [`CONTRIBUTING.md`](.github/CONTRIBUTING.md) for details on our code of conduct and how to submit a pull request. Each contributed data package should be licensed as openly as possible.
-
-*`Contributing.md` will include the requirement to apply [data package version](https://frictionlessdata.io/specs/patterns/#data-package-versions).*
 
 ## Licenses
 
