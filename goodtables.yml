@@ -16,9 +16,14 @@
 # validate datapackages that reference csv files
 #
 datapackages:
+  - cpi/datapackage.json
+  - geo-countries/datapackage.json
+  - gross-domestic-product-2014/datapackage.json
+  - gross-domestic-product-all/datapackage.json
   - geo-lat-lon-as-numbers/datapackage.json
   - geo-location-fk/datapackage.json
   - geo-location-uri/datapackage.json
   - geopoint-array/datapackage.json
   - geopoint-default/datapackage.json
   - geopoint-object/datapackage.json
+  - periodic-table/datapackage.json

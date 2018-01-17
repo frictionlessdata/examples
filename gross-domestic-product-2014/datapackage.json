@@ -2,10 +2,20 @@
   "name": "gdp",
   "title": "Country, Regional and World GDP (Gross Domestic Product) for 2014 (Example)",
   "description": "Example Data Package providing Country, regional and world GDP in current US Dollars ($)",
+  "profile": "tabular-data-package",
+  "licenses": [{
+    "id": "CC0-1.0",
+    "title": "CC0 1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }],
   "resources": [
     {
       "name": "gdp",
       "path": "data/gdp_2014.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -18,8 +28,7 @@
           },
           {
             "name": "Year",
-            "type": "date",
-            "format": "fmt:%Y"
+            "type": "year"
           },
           {
             "name": "Value",

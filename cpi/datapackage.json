@@ -2,46 +2,40 @@
   "name": "cpi",
   "title": "Annual Consumer Price Index (CPI)",
   "description": "Annual Consumer Price Index (CPI) for most countries in the world. Reference year is 2005.",
-  "licenses" : [
-    {
-      "type": "odc-pddl",
-      "url": "http://opendatacommons.org/licenses/pddl/"
-    }
-  ],
-  "keywords": [ "CPI", "World", "Consumer Price Index", "Annual Data", "The World Bank" ],
+  "profile": "tabular-data-package",
+  "licenses": [{
+    "id": "ODC-PDDL-1.0",
+    "title": "Open Data Commons Public Domain Dedication and Licence 1.0",
+    "url": "http://www.opendefinition.org/licenses/odc-pddl"
+  }],
+  "keywords": ["CPI", "World", "Consumer Price Index", "Annual Data", "The World Bank"],
   "version": "2.0.0",
-  "last_updated": "2014-09-22",
-  "sources": [
-    {
-      "name": "The World Bank",
-      "web": "http://data.worldbank.org/indicator/FP.CPI.TOTL"
+  "sources": [{
+    "title": "The World Bank",
+    "path": "http://data.worldbank.org/indicator/FP.CPI.TOTL"
+  }],
+  "resources": [{
+    "path": "data/cpi.csv",
+    "profile": "tabular-data-resource",
+    "schema": {
+      "fields": [{
+          "name": "Country Name",
+          "type": "string"
+        },
+        {
+          "name": "Country Code",
+          "type": "string"
+        },
+        {
+          "name": "Year",
+          "type": "year"
+        },
+        {
+          "name": "CPI",
+          "description": "CPI (where 2005=100)",
+          "type": "number"
+        }
+      ]
     }
-  ],
-  "resources": [
-    {
-      "path": "data/cpi.csv",
-      "schema": {
-        "fields": [
-          {
-            "name": "Country Name",
-            "type": "string"
-          },
-          {
-            "name": "Country Code",
-            "type": "string"
-          },
-          {
-            "name": "Year",
-            "type": "date",
-            "format": "fmt:%Y"
-          },
-          {
-            "name": "CPI",
-            "description": "CPI (where 2005=100)", 
-            "type": "number"
-          }
-	]
-      }
-    }
-  ]
+  }]
 }
