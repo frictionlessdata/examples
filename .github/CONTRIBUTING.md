@@ -28,12 +28,24 @@ To run the validation tests each time you commit a change to your GitHub reposit
 
 ### Make your changes
 
+#### Contribute a data package
+
 To add a data package:
 
-- Follow the directory structure in the [Readme](./README.md/#data-packages).
+- Follow the directory structure in the [Readme](./README.md/#data-packages)
 - Add your data package example
 - Make sure the Goodtables.io tests pass
 - Add a `README.md` using the template
+
+Change a data package:
+
+- Change the data package 
+- update the [data package version](https://frictionlessdata.io/specs/patterns/#data-package-version)
+- Make sure the Goodtables.io tests pass
+
+#### Contribute code
+
+Follow our [coding standards](https://github.com/okfn/coding-standards).
 
 ### Submit a pull request
 
