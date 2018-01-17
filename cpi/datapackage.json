@@ -4,9 +4,9 @@
   "description": "Annual Consumer Price Index (CPI) for most countries in the world. Reference year is 2005.",
   "profile": "tabular-data-package",
   "licenses": [{
-    "id": "ODC-PDDL-1.0",
-    "title": "Open Data Commons Public Domain Dedication and Licence 1.0",
-    "url": "http://www.opendefinition.org/licenses/odc-pddl"
+    "name": "CC-BY-4.0",
+    "title": "Creative Commons Attribution 4.0",
+    "path": "https://creativecommons.org/licenses/by/4.0/"
   }],
   "keywords": ["CPI", "World", "Consumer Price Index", "Annual Data", "The World Bank"],
   "version": "2.0.0",
