@@ -4,6 +4,9 @@ Consumer price index (2010 = 100) by The World Bank.
 
 To learn more about this data, [view the metadata from The World Bank](http://databank.worldbank.org/data/reports.aspx?source=2&type=metadata&series=FP.CPI.TOTL)
 
+Used in the following Frictionless Data Guides:
+- [Joining Data](https://frictionlessdata.io/guides/joining-data-in-python/)
+
 ## Preparation
 
 This data was downloaded from The World Bank and a data package hand edited to describe the data. The data was validated against the table schema in the `datapackage.json` file using [goodtables.io](http://goodtables.io).

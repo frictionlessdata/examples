@@ -2,6 +2,11 @@
   "name": "geo-countries",
   "title": "Country Polygons as GeoJSON (Example)",
   "description": "Example Data Package providing GeoJSON polygons for all the world's countries",
+  "licenses": [{
+    "id": "CC0-1.0",
+    "title": "CC0 1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }],
   "resources": [
     {
       "name": "countries",
