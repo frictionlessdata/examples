@@ -13,12 +13,19 @@
 #    schema: australian-open-data-portals/tableschema.json
 #  - source: pathway/data/all_organisations_by_country.csv
 
-# validate datapackages that reference csv files
+# validate datapackages 
+# only data packages listed in Frictionless Data Guides are validated at present.
+# Other data packages are not up-to-date with the current specification.
 #
 datapackages:
+  - cpi/datapackage.json
+  - geo-countries/datapackage.json
   - geo-lat-lon-as-numbers/datapackage.json
   - geo-location-fk/datapackage.json
   - geo-location-uri/datapackage.json
   - geopoint-array/datapackage.json
   - geopoint-default/datapackage.json
   - geopoint-object/datapackage.json
+  - gross-domestic-product-2014/datapackage.json
+  - gross-domestic-product-all/datapackage.json
+  - periodic-table/datapackage.json

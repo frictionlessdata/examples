@@ -12,13 +12,13 @@ The Guides are a great place to [start to learn](https://frictionlessdata.io/gui
 
 *Warning: some data packages are out-of-date. (See [Issue #4](https://github.com/frictionlessdata/example-data-packages/issues/4))*
 
+## Data Packages
+
 The `datapackage.json` will describe the [data package](https://frictionlessdata.io/specs/data-package/) as a whole, and one or more [data resources](https://frictionlessdata.io/specs/data-resource/) (each optionally with a [schema](https://frictionlessdata.io/specs/data-resource/#resource-schemas) or a [view](https://frictionlessdata.io/specs/views/)).
 
 If all the data is tabular (i.e. [CSV files](https://frictionlessdata.io/guides/csv/)), then it will be described as a [tabular data package](https://frictionlessdata.io/specs/tabular-data-package/) with one or more [tabular data resources](https://frictionlessdata.io/specs/tabular-data-package/) each with a [table schema](https://frictionlessdata.io/specs/table-schema/) and, if needed, a [CSV dialect](https://frictionlessdata.io/specs/csv-dialect/).
 
 There are other specialised [profiles](https://frictionlessdata.io/specs/profiles/) that describe different types of data, such as [fiscal data](https://frictionlessdata.io/specs/fiscal-data-package/).
-
-## Data Packages
 
 Each data package is stored in it's own directory:
 
@@ -67,11 +67,9 @@ A resources directory contains a template `README.md` and example `datapackage.j
 
 In this repository, each data package must have a `README.md`. The `README.md` should follow [good practices](https://frictionlessdata.io/guides/publish-faq/#readme).
 
-*To Do. Update good practices to include ideas from [Data Curator](https://github.com/ODIQueensland/data-curator/blob/develop/test/features/tools/sample-provenance-information.md) and [Gitter](https://gitter.im/frictionlessdata/chat?at=5a58aff461a861c92704fb38)*
-
 ### `datapackage.json` snippets
 
-JSON snippets provide a fragment of a `datapackage.json` file to help you learn about that specific property or cut and paste into your own data package. E.g. `licenses.json` could include JSON for each [recommended Open Definition conformant  license](http://opendefinition.org/licenses/#conformant-licenses).
+JSON snippets provide a fragment of a `datapackage.json` file to help you learn about that specific property or cut and paste into your own data package. E.g. `licenses.json` could include JSON for each [recommended Open Definition conformant license](http://opendefinition.org/licenses/#conformant-licenses).
 
 ## Repository Structure
 
@@ -113,11 +111,9 @@ We value all types of contributions:
 - [issues](https://github.com/frictionlessdata/example-data-packages/issues) and [requests](https://github.com/frictionlessdata/example-data-packages/issues)
 - code
 
-We thank the generous [contributors](https://github.com/your/project/contributors) to this project.
+We thank the generous [contributors](https://github.com/frictionlessdata/example-data-packages/graphs/contributors) to this project.
 
 To join them, please read [`CONTRIBUTING.md`](.github/CONTRIBUTING.md) for details on our code of conduct and how to submit a pull request. Each contributed data package should be licensed as openly as possible.
-
-*`Contributing.md` will include the requirement to apply [data package version](https://frictionlessdata.io/specs/patterns/#data-package-versions).*
 
 ## Licenses
 
