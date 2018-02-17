@@ -1,40 +1,40 @@
 "licenses": [{
-  "name": "CC0-1.0",
-  "title": "CC0 1.0",
-  "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+    "name": "CC0-1.0",
+    "title": "CC0 1.0",
+    "path": "https://creativecommons.org/publicdomain/zero/1.0/"
   },
   {
-  "name": "CC-BY-4.0",
-  "title": "Creative Commons Attribution 4.0",
-  "path": "https://creativecommons.org/licenses/by/4.0/"
+    "name": "CC-BY-4.0",
+    "title": "Creative Commons Attribution 4.0",
+    "path": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
-  "name": "CC-BY-SA-4.0",
-  "title": "Creative Commons Attribution Share-Alike 4.0",
-  "path": "https://creativecommons.org/licenses/by-sa/4.0/"
+    "name": "CC-BY-SA-4.0",
+    "title": "Creative Commons Attribution Share-Alike 4.0",
+    "path": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   {
-  "name": "ODC-BY-1.0",
-  "title": "Open Data Commons Attribution License 1.0",
-  "path": "http://www.opendefinition.org/licenses/odc-by"
+    "name": "ODC-BY-1.0",
+    "title": "Open Data Commons Attribution License 1.0",
+    "path": "http://www.opendefinition.org/licenses/odc-by"
   },
   {
-  "name": "ODC-PDDL-1.0",
-  "title": "Open Data Commons Public Domain Dedication and License v1.0",
-  "path": "http://opendatacommons.org/licenses/pddl/"
+    "name": "ODC-PDDL-1.0",
+    "title": "Open Data Commons Public Domain Dedication and License v1.0",
+    "path": "http://opendatacommons.org/licenses/pddl/"
   },
   {
-  "name": "ODbL-1.0",
-  "title": "Open Data Commons Open Database License 1.0",
-  "path": "http://www.opendefinition.org/licenses/odc-odbl"
+    "name": "ODbL-1.0",
+    "title": "Open Data Commons Open Database License 1.0",
+    "path": "http://www.opendefinition.org/licenses/odc-odbl"
   },
   {
-  "name": "OGL-UK-3.0",
-  "title": "Open Government Licence 3.0 (United Kingdom)",
-  "path": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+    "name": "OGL-UK-3.0",
+    "title": "Open Government Licence 3.0 (United Kingdom)",
+    "path": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
   },
   {
-  "path": "http://creativecommons.org/publicdomain/mark/1.0/",
-  "title": "Public Domain Mark"
+    "path": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "title": "Public Domain Mark"
   }
 ],
