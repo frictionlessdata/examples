@@ -41,15 +41,23 @@ The data package directory may also contain [other files or sub-directories](htt
 
 ## Validation
 
-With each commit to the repository, the data package is validated using [goodtables.io](http://goodtables.io/). The validation results for the whole repository are indicated with a badge: ![goodtables.io](https://goodtables.io/badge/github/frictionlessdata/example-data-packages.svg)
+### Repository Validation
+
+With each commit to the repository, the data package is validated using [goodtables.io](http://goodtables.io/). The validation results for the data packages specified in [goodtables.yml](goodtables.yml) are indicated with a badge: ![goodtables.io](https://goodtables.io/badge/github/frictionlessdata/example-data-packages.svg)
 
 *Ideally an individual badge could also be awarded for each data package and displayed in its `README.md` file but this is not possible yet. (See goodtables.io [issue #285](https://github.com/frictionlessdata/goodtables.io/issues/285))*
 
 The validation is controlled by the [goodtables.yaml](https://github.com/frictionlessdata/example-data-packages/blob/master/goodtables.yml) file. It should be configured to test all the data packages in the repository. This can be changed if your working locally to [validate specific data packages](https://github.com/frictionlessdata/goodtables.io/blob/master/docs/goodtables_yml.md).
 
+### Local validation
+
+We plan to implement [local validation](https://github.com/frictionlessdata/example-data-packages/issues/6) so data packages can be validated before contributing to this repository.
+
 ## Zipped Data Packages
 
 With each commit to the repository, the data package directory is converted into a .zip file so it can be used with [software that supports Frictionless Data ](https://frictionlessdata.io/software/) such as the [Data Curator](http://data-curator.io) app or the [DataPackage.js](https://github.com/frictionlessdata/datapackage-js) library. The zip files are stored in the `zip` directory.
+
+Whilst [the approach to compressing data packages has not been finalised](https://github.com/frictionlessdata/specs/issues/132) a number of [Frictionless Data Software](https://frictionlessdata.io/software/) implementations support zip files.
 
 *To do: script needed*
 
