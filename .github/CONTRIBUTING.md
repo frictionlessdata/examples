@@ -39,8 +39,8 @@ To add a data package:
 
 Change a data package:
 
-- Change the data package 
-- update the [data package version](https://frictionlessdata.io/specs/patterns/#data-package-version)
+- Change the data package
+- update the [data package version](https://frictionlessdata.io/specs/patterns/#data-package-version). Follow the [data package version pattern](https://frictionlessdata.io/specs/patterns/#data-package-version).
 - Make sure the Goodtables.io tests pass
 
 #### Contribute code
