@@ -1,5 +1,5 @@
 {
-  "profile": "tabular-data-package ",
+  "profile": "tabular-data-package",
   "name": "countries-and-currencies",
   "title": "Countries and Currencies",
   "path": "data/currencies.csv",
