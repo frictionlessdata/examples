@@ -1,22 +1,20 @@
 {
-  "name": "ex-topojson",
+  "name": "simple-topojson",
   "title": "TopoJSON Example Data Package",
-  "description": "",
   "licenses": [
     {
-      "id": "odc-pddl",
-      "name": "Public Domain Dedication and License",
-      "version": "1.0",
-      "url": "http://opendatacommons.org/licenses/pddl/1.0/"
+      "name": "ODC-PDDL-1.0",
+      "title": "Open Data Commons Public Domain Dedication and Licence 1.0",
+      "path": "http://www.opendefinition.org/licenses/odc-pddl"
     }
   ],
   "resources": [
     {
-      "url": "https://github.com/mbostock/topojson/raw/master/examples/us-10m.json",
+      "path": "https://github.com/mbostock/topojson/raw/master/examples/us-10m.json",
       "name": "us-10m",
+      "description": "US 1:10m topojson",
       "format": "topojson",
-      "mediatype": "application/json",
-      "description": "US 1:10m topojson"
+      "mediatype": "application/json"
     }
   ]
 }

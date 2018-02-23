@@ -13,12 +13,14 @@
 #    schema: australian-open-data-portals/tableschema.json
 #  - source: pathway/data/all_organisations_by_country.csv
 
-# validate datapackages 
+# validate datapackages
 # only data packages listed in Frictionless Data Guides are validated at present.
 # Other data packages are not up-to-date with the current specification.
 #
 datapackages:
+  - countries-and-currencies/datapackage.json
   - cpi/datapackage.json
+  - finance-vix/datapackage.json
   - geo-countries/datapackage.json
   - geo-lat-lon-as-numbers/datapackage.json
   - geo-location-fk/datapackage.json
@@ -28,4 +30,6 @@ datapackages:
   - geopoint-object/datapackage.json
   - gross-domestic-product-2014/datapackage.json
   - gross-domestic-product-all/datapackage.json
+  - inflation/datapackage.json
   - periodic-table/datapackage.json
+  - simple-geojson/datapackage.json 

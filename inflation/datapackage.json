@@ -19,10 +19,10 @@
           {
             "name": "Year",
             "type": "date",
-            "format": "fmt:%Y"
+            "format": "%Y"
           },
           {
-            "name": "Inflation", 
+            "name": "Inflation",
             "type": "number"
           }
 	]
@@ -43,10 +43,10 @@
           {
             "name": "Year",
             "type": "date",
-            "format": "fmt:%Y"
+            "format": "%Y"
           },
           {
-            "name": "Inflation", 
+            "name": "Inflation",
             "type": "number"
           }
 	]
