@@ -1,6 +1,7 @@
 # Example Data Packages
 
-![goodtables.io](https://goodtables.io/badge/github/frictionlessdata/example-data-packages.svg)
+[![goodtables.io](https://goodtables.io/badge/github/frictionlessdata/example-data-packages.svg)](https://goodtables.io/github/frictionlessdata/example-data-packages)
+
 
 This repository contains example data packages to help you learn about [Frictionless Data](https://frictionlessdata.io/). The example data packages:
 
@@ -41,7 +42,8 @@ The data package directory may also contain [other files or sub-directories](htt
 
 ## Validation
 
-With each commit to the repository, the data package is validated using [goodtables.io](http://goodtables.io/). The validation results for the whole repository are indicated with a badge: ![goodtables.io](https://goodtables.io/badge/github/frictionlessdata/example-data-packages.svg)
+With each commit to the repository, the data package is validated using [goodtables.io](http://goodtables.io/). The validation results for the whole repository are indicated with a badge: [![goodtables.io](https://goodtables.io/badge/github/frictionlessdata/example-data-packages.svg)](https://goodtables.io/github/frictionlessdata/example-data-packages)
+
 
 *Ideally an individual badge could also be awarded for each data package and displayed in its `README.md` file but this is not possible yet. (See goodtables.io [issue #285](https://github.com/frictionlessdata/goodtables.io/issues/285))*
 
