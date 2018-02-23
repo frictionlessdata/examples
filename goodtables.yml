@@ -30,4 +30,5 @@ datapackages:
   - geopoint-object/datapackage.json
   - gross-domestic-product-2014/datapackage.json
   - gross-domestic-product-all/datapackage.json
+  - inflation/datapackage.json
   - periodic-table/datapackage.json
