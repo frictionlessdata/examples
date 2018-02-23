@@ -32,3 +32,4 @@ datapackages:
   - gross-domestic-product-all/datapackage.json
   - inflation/datapackage.json
   - periodic-table/datapackage.json
+  - simple-geojson/datapackage.json 
