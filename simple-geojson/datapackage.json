@@ -1,12 +1,14 @@
 {
-  "name": "ex-geojson",
+  "name": "simple-geojson",
   "title": "Example Geo (JSON) Data Package",
   "version": "0.1.0",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/datasets/ex-geojson.git"
-  },
-  "license": "PDDL-1.0",
+  "licenses": [
+    {
+      "name": "ODC-PDDL-1.0",
+      "title": "Open Data Commons Public Domain Dedication and Licence 1.0",
+      "path": "http://www.opendefinition.org/licenses/odc-pddl"
+    }
+  ],
   "resources": [
     {
       "name": "example",
