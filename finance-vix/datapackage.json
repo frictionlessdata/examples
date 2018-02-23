@@ -4,8 +4,8 @@
   "homepage": "http://www.cboe.com/micro/VIX/",
   "version": "0.0.1",
   "sources": [{
-    "name": "CBOE VIX Page",
-    "web": "http://www.cboe.com/micro/vix/historical.aspx"
+    "title": "CBOE VIX Page",
+    "path": "http://www.cboe.com/micro/vix/historical.aspx"
   }],
   "resources": [
     {
@@ -18,7 +18,7 @@
           {
             "name": "Date",
             "type": "date",
-            "format": "fmt:%m/%d/%Y"
+            "format": "%m/%d/%Y"
           },
           {
             "name": "VIXOpen",
