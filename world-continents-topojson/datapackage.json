@@ -1,0 +1,19 @@
+{
+  "name": "world-continents-topojson",
+  "title": "World Continents TopoJSON Example Data Package",
+  "licenses": [{
+    "title": "MIT License",
+    "path": "http://www.opensource.org/licenses/MIT"
+  }],
+  "sources": [{
+    "title": "TopoJSON Collection - World Continents",
+    "path": "https://github.com/deldersveld/topojson/blob/master/world-continents.json"
+  }],
+  "resources": [{
+    "path": "https://github.com/deldersveld/topojson/raw/master/world-continents.json",
+    "name": "world-continents",
+    "description": "World Continents",
+    "format": "topojson",
+    "mediatype": "application/json"
+  }]
+}
