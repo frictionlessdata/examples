@@ -1,4 +1,5 @@
 # .goodtables.yml should conform to the format at https://github.com/frictionlessdata/goodtables.io/blob/master/goodtablesio/schemas/job-conf.yml
+# You can validate `files` or `datapackages`, not both at the same time.
 
 # validate all csv files without reference to the datapackages e.g.
 #
@@ -34,5 +35,5 @@ datapackages:
 #  - iso-639-1-language-codes/datapackage.json  Language pattern not implemented in Goodtables.io
   - periodic-table/datapackage.json
   - simple-geojson/datapackage.json
-#  - simple-topojson/datapackage.json
-#  - text-file/datapackage.json
+#  - simple-topojson/datapackage.json    Data missing from data package
+#  - text-file/datapackage.json    .txt file format not supported by Goodtables.io
