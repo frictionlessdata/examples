@@ -31,5 +31,8 @@ datapackages:
   - gross-domestic-product-2014/datapackage.json
   - gross-domestic-product-all/datapackage.json
   - inflation/datapackage.json
+#  - iso-639-1-language-codes/datapackage.json  Language pattern not implemented in Goodtables.io
   - periodic-table/datapackage.json
-  - simple-geojson/datapackage.json 
+  - simple-geojson/datapackage.json
+#  - simple-topojson/datapackage.json
+#  - text-file/datapackage.json
