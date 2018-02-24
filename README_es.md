@@ -2,6 +2,7 @@
 
 [![goodtables.io](https://goodtables.io/badge/github/frictionlessdata/example-data-packages.svg)](https://goodtables.io/github/frictionlessdata/example-data-packages)
 
+[English](README.md) | **Español**
 
 Este repositorio contiene ejemplos del contenido de los paquetes para ayudarte a aprender sobre el [Contenido Frictionless](https://frictionlessdata.io/). Un ejemplo de los contenido de los paquetes:
 
@@ -36,7 +37,7 @@ Este contiene:
 
 - `README.md` que explique de donde proviene el contenido
 - `datapackage.json` un archivo legible que explique la estructura y el significado del contenido
-- uno o más archivos, que normalmente son agrupados en un directorio de `data` 
+- uno o más archivos, que normalmente son agrupados en un directorio de `data`
 
 El contenido del paquete puede que tambien contenga [otros archivos o subdirectorios](https://frictionlessdata.io/specs/data-package/#illustrative-structure). Estos archivos pueden ser scripts utilizados para preparar el contenido del paquete o otros recursos relacionados.
 
@@ -72,11 +73,11 @@ Con cada ajuste, el archivo `datapackage.json` será [formateado para ser más f
 
 Los recursos del directorio contienen la planilla `README.md` y fragmentos de `datapackage.json`.
 
-### Planilla `README.md` 
+### Planilla `README.md`
 
 En este repositorio, cada contenido de paquete debe tener un `README.md`. El `README.md` debe tener [buena legibilidad](https://frictionlessdata.io/guides/publish-faq/#readme).
 
-### Fragmentos de `datapackage.json` 
+### Fragmentos de `datapackage.json`
 
 Los fragmentos de JSON proveen un archivo `datapackage.json` para ayudarte a aprender sobre una propiedad especifica o a copiar y pegar en tu propio contenido del paquete P.ej. `licenses.json` puede incluir un JSON para cada [recomendación de Open Definition conforme a su licencia](http://opendefinition.org/licenses/#conformant-licenses).
 
