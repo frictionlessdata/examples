@@ -1,28 +1,28 @@
-# Ejemplos del Contenido de los paquetes
+# Ejemplos de los paquetes de datos
 
 [![goodtables.io](https://goodtables.io/badge/github/frictionlessdata/example-data-packages.svg)](https://goodtables.io/github/frictionlessdata/example-data-packages)
 
 [English](README.md) | **Español**
 
-Este repositorio contiene ejemplos del contenido de los paquetes para ayudarte a aprender sobre el [Contenido Frictionless](https://frictionlessdata.io/). Un ejemplo de los contenido de los paquetes:
+Este repositorio contiene ejemplos de los paquetes de datos para ayudarte a aprender sobre el [Frictionless Data](https://frictionlessdata.io/). Un ejemplo de los contenido de los paquetes:
 
-- ilustraciones sobre los paquetes actuales con contenido Frictionless [Especificaciones](https://frictionlessdata.io/specs/)
-- ayuda al contenido Frictionless [Guías](https://frictionlessdata.io/guides/)
-- demostraciones de contenido Frictionless [Formas](https://frictionlessdata.io/specs/patterns/) - formas para resolver problemas comunes que (aún) no están en las especificaciones
+- ilustraciones sobre los paquetes actuales con Frictionless Data [Especificaciones](https://frictionlessdata.io/specs/)
+- ayuda sobre Frictionless Data [Guías](https://frictionlessdata.io/guides/)
+- demostraciones de Frictionless Data [Formas](https://frictionlessdata.io/specs/patterns/) - formas para resolver problemas comunes que (aún) no están en las especificaciones
 
-Las guías son una excelente forma de [empezar a aprender](https://frictionlessdata.io/guides/). Otra forma sería abriendo el directorio del contenidos de los paquetes, vea los `README.md`, luego vea el `datapackage.json` para entender el contenido.
+Las guías son una excelente forma de [empezar a aprender](https://frictionlessdata.io/guides/). Otra forma sería abriendo el directorio de los paquetes de datos, vea los `README.md`, luego vea el `datapackage.json` para entender el contenido.
 
 *Advertencia: algunos paquetes de datos están desactualizados. (Vea el [Issue #4](https://github.com/frictionlessdata/example-data-packages/issues/4))*
 
-## El contenido del paquete
+## Paquete de Datos
 
 El `datapackage.json` describirá el [contenido del paquete](https://frictionlessdata.io/specs/data-package/) como un todo, y uno o más [recurso del contenido](https://frictionlessdata.io/specs/data-resource/) (cada uno puede que tenga su [esquema](https://frictionlessdata.io/specs/data-resource/#resource-schemas) o su [visualizacion](https://frictionlessdata.io/specs/views/)).
 
-Si todo el contenido es tabular (es decir [archivos CSV](https://frictionlessdata.io/guides/csv/)), entonces será describido como un [contenido de paquete tabular](https://frictionlessdata.io/specs/tabular-data-package/) con uno o más [recursos de contenido tabular](https://frictionlessdata.io/specs/tabular-data-package/) todos con su [tabla de esquemas](https://frictionlessdata.io/specs/table-schema/) and, if needed, a [CSV dialect](https://frictionlessdata.io/specs/csv-dialect/).
+Si todo el contenido es tabular (es decir [archivos CSV](https://frictionlessdata.io/guides/csv/)), entonces será describido como un [paquete de datos tabular](https://frictionlessdata.io/specs/tabular-data-package/) con uno o más [recursos de contenido tabular](https://frictionlessdata.io/specs/tabular-data-package/) todos con su [tabla de esquemas](https://frictionlessdata.io/specs/table-schema/) y, de ser necesario, un [CSV dialect](https://frictionlessdata.io/specs/csv-dialect/).
 
 Existen otras especialidades en los [perfiles](https://frictionlessdata.io/specs/profiles/) que describen los diferentes tipos de contenido, tales como [contenido fiscal](https://frictionlessdata.io/specs/fiscal-data-package/).
 
-Todo el contenido del paquete es almacenado en su propio directorio:
+Todos los paquetes de datos son almacenados en su propio directorio:
 
 ```
 |- data-package-name-1
@@ -39,27 +39,27 @@ Este contiene:
 - `datapackage.json` un archivo legible que explique la estructura y el significado del contenido
 - uno o más archivos, que normalmente son agrupados en un directorio de `data`
 
-El contenido del paquete puede que tambien contenga [otros archivos o subdirectorios](https://frictionlessdata.io/specs/data-package/#illustrative-structure). Estos archivos pueden ser scripts utilizados para preparar el contenido del paquete o otros recursos relacionados.
+El paquete de datos puede que tambien contenga [otros archivos o subdirectorios](https://frictionlessdata.io/specs/data-package/#illustrative-structure). Estos archivos pueden ser scripts utilizados para preparar el paquete de datos o otros recursos relacionados.
 
 ## Aprobación
 
 ### Aprobación del Repositorio
 
-Con cada ajuste al repositorio, el contenido del paquete será aprobado utilizando [goodtables.io](http://goodtables.io/). El resultado de la aprobación del conteido de los paquetes se especifica en [goodtables.yml](goodtables.yml) son indicados con una insignia: ![goodtables.io](https://goodtables.io/badge/github/frictionlessdata/example-data-packages.svg)
+Con cada ajuste al repositorio, el paquete de datos será aprobado utilizando [goodtables.io](http://goodtables.io/). El resultado de la aprobación del paquete de datos se especifica en [goodtables.yml](goodtables.yml) son indicados con una insignia: ![goodtables.io](https://goodtables.io/badge/github/frictionlessdata/example-data-packages.svg)
 
-*Idealmente se otorgará una insignia por cada contenido de paquete y será visible en su archivo `README.md`  pero esto aún no es posible. (Vealo en goodtables.io [issue #285](https://github.com/frictionlessdata/goodtables.io/issues/285))*
+*Idealmente se otorgará una insignia por cada paquete de datos y será visible en su archivo `README.md`  pero esto aún no es posible. (Vealo en goodtables.io [issue #285](https://github.com/frictionlessdata/goodtables.io/issues/285))*
 
-La aprobación es controlada por el archivo [goodtables.yaml](https://github.com/frictionlessdata/example-data-packages/blob/master/goodtables.yml). Este debe ser configurado para que pruebe cada contenido de los paquetes en el repositorio. Esto podrá ser cambiado si trabaja localmente para [validar el contenido de un paquete en especifico](https://github.com/frictionlessdata/goodtables.io/blob/master/docs/goodtables_yml.md).
+La aprobación es controlada por el archivo [goodtables.yaml](https://github.com/frictionlessdata/example-data-packages/blob/master/goodtables.yml). Este debe ser configurado para que valide cada contenido de los paquetes en el repositorio. Esto podrá ser cambiado si trabaja localmente para [validar el contenido de un paquete en especifico](https://github.com/frictionlessdata/goodtables.io/blob/master/docs/goodtables_yml.md).
 
-### Aprobación Local
+### Validación Local
 
-Queremos implementar la [aprobación local](https://github.com/frictionlessdata/example-data-packages/issues/6) para que los paquetes puedan ser aprobados antes de ser contribuidos en este repositorio.
+Queremos implementar la [validación local](https://github.com/frictionlessdata/example-data-packages/issues/6) para que los paquetes puedan ser validados antes de ser contribuidos en este repositorio.
 
-## Comprimir el contenido de los paquetes
+## Comprimir el paquete de datos
 
-Con cada ajuste al repositorio, el directorio con el contenido del paquete será convertido en un archivo .zip para que pueda ser usado con un [software que ejecute el contenido Frictionless](https://frictionlessdata.io/software/) tal como el [Curador de Contenido](http://data-curator.io) app or the [DataPackage.js](https://github.com/frictionlessdata/datapackage-js) library. The zip files are stored in the `zip` directory.
+Con cada ajuste al repositorio, el directorio con el paquete de datos será convertido en un archivo .zip para que pueda ser usado con un [software que ejecute el Frictionless Data](https://frictionlessdata.io/software/) tal como el [Curador de Contenido](http://data-curator.io) o la libreria de [DataPackage.js](https://github.com/frictionlessdata/datapackage-js). Los paquetes de datos comprimidos son almacenados en el directorio `zip`.
 
-Mientras que [no se haya finalizado la compresión del contenido de los paquetes](https://github.com/frictionlessdata/specs/issues/132) un numero de [Software de contenido Frictionless](https://frictionlessdata.io/software/) implementaciones compatibles al archivo _zip_ comprimido.
+Mientras que [no se haya finalizado la compresión del paquete de datos](https://github.com/frictionlessdata/specs/issues/132) un numero de [Software de Frictionless Data](https://frictionlessdata.io/software/) implementaciones compatibles al archivo _zip_ comprimido.
 
 *Para esto: es necesario script*
 
