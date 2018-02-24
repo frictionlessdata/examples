@@ -6,14 +6,9 @@ Data derived from https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes with col
 
 Data sourced on 2018-02-24. This data will not be updated. Do not use the data for  analysis.
 
-In copying the data, characters for some `Native name (endonym)` values do not seem to be supported, e.g:
-
-- Divehi, Dhivehi, Maldivian
-- Javanese
-
 This data package implements the [Language support](https://frictionlessdata.io/specs/patterns/#language-support) pattern. Some properties in the [data package](datapackage.json) have been given both English and Spanish values.
 
-This pattern is not implemented in data package validation tools. The CSV file has been validated using https://try.goodtables.io 
+This pattern is not implemented in data package validation tools. The CSV file has been validated using https://try.goodtables.io
 
 ## License
 
