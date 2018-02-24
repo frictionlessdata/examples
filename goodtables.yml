@@ -1,5 +1,5 @@
 # .goodtables.yml should conform to the format at https://github.com/frictionlessdata/goodtables.io/blob/master/goodtablesio/schemas/job-conf.yml
-# You can validate `files` or `datapackages`, not both at the same time.
+# You can validate tabular `files` or `datapackages`, not both at the same time.
 
 # validate all csv files without reference to the datapackages e.g.
 #
@@ -15,9 +15,7 @@
 #  - source: pathway/data/all_organisations_by_country.csv
 
 # validate datapackages
-# only data packages listed in Frictionless Data Guides are validated at present.
-# Other data packages are not up-to-date with the current specification.
-#
+
 datapackages:
   - countries-and-currencies/datapackage.json
   - cpi/datapackage.json
@@ -34,6 +32,6 @@ datapackages:
   - inflation/datapackage.json
 #  - iso-639-1-language-codes/datapackage.json  Language pattern not implemented in Goodtables.io
   - periodic-table/datapackage.json
-  - simple-geojson/datapackage.json
-#  - simple-topojson/datapackage.json    Data missing from data package
+#  - simple-geojson/datapackage.json     Goodtables only validates tabular data
+#  - world-continents-topojson/datapackage.json    Goodtables only validates tabular data
 #  - text-file/datapackage.json    .txt file format not supported by Goodtables.io
