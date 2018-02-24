@@ -1,0 +1,94 @@
+{
+  "profile": "tabular-data-package",
+  "name": "iso-639-1-language-codes",
+  "languages": ["en", "es"],
+  "title": {
+    "": "ISO 639-1 Language Codes",
+    "es": "ISO 639-1 "
+  },
+  "description": {
+    "": "ISO 639-1 two-letter language codes",
+    "es": "ISO 639-1 "
+  },
+  "version": "0.1.0",
+  "licenses": [{
+    "title": {
+      "": "Creative Commons Attribution Share-Alike 3.0",
+      "es": "Reconocimiento-CompartirIgual 3.0 España"
+    },
+    "path": {
+      "": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "es": "https://creativecommons.org/licenses/by-sa/3.0/es/"
+    }
+  }],
+  "resources": [{
+    "profile": "tabular-data-resource",
+    "path": "data/ISO-639-1-codes.csv",
+    "name": "iso-639-1-codes",
+    "title": {
+      "": "ISO 639-1 language codes",
+      "es": "ISO 639-1 "
+    },
+    "description": {
+      "": "ISO 639-1: two-letter codes, one per language for ISO 639 macrolanguage",
+      "es": "ISO 639-1: "
+    },
+    "encoding": "utf-8",
+    "format": "csv",
+    "mediatype": "text/csv",
+    "sources": [{
+      "title": "List of ISO 639-1 codes",
+      "path": "https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes"
+    }],
+    "schema": {
+      "fields": [{
+          "name": {
+            "": "ISO language name",
+            "es": "ISO "
+          },
+          "type": "string",
+          "format": "default",
+          "constraints": {
+            "required": true
+          }
+        },
+        {
+          "name": {
+            "": "Native name (endonym)",
+            "es": ""
+          },
+          "type": "string",
+          "format": "default"
+        },
+        {
+          "name": "639-1",
+          "type": "string",
+          "format": "default"
+        },
+        {
+          "name": {
+            "": "Notes",
+            "es": ""
+          },
+          "type": "string",
+          "format": "default"
+        }
+      ],
+      "missingValues": [
+        ""
+      ],
+      "primaryKeys": [
+        "639-1"
+      ]
+    },
+    "dialect": {
+      "delimiter": ",",
+      "quoteChar": "\"",
+      "header": true,
+      "doubleQuote": true,
+      "lineTerminator": "\r\n",
+      "skipInitialSpace": true,
+      "caseSensitiveHeader": false
+    }
+  }]
+}
