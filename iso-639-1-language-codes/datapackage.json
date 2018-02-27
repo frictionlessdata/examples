@@ -4,13 +4,17 @@
   "languages": ["en", "es"],
   "title": {
     "": "ISO 639-1 Language Codes",
-    "es": "ISO 639-1 "
+    "es": "ISO 639-1 Códigos de idioma"
   },
   "description": {
     "": "ISO 639-1 two-letter language codes",
-    "es": "ISO 639-1 "
+    "es": "ISO 639-1 códigos de idioma de dos letras"
   },
   "version": "0.1.0",
+  "keywords": {
+    "": "language",
+    "es": "idioma"
+  },
   "licenses": [{
     "title": {
       "": "Creative Commons Attribution Share-Alike 3.0",
@@ -21,17 +25,30 @@
       "es": "https://creativecommons.org/licenses/by-sa/3.0/es/"
     }
   }],
+  "contributors": [{
+    "title": "Joe Bloggs",
+    "email": "joe@bloggs.com",
+    "path": "http://www.bloggs.com",
+    "role": {
+      "": "author",
+      "es": "autor"
+    },
+    "organization": {
+      "": "International Organization for Standardization",
+      "es": "Organización Internacional para la Estandarización"
+    }
+  }],
   "resources": [{
     "profile": "tabular-data-resource",
     "path": "data/ISO-639-1-codes.csv",
     "name": "iso-639-1-codes",
     "title": {
       "": "ISO 639-1 language codes",
-      "es": "ISO 639-1 "
+      "es": "ISO 639-1 códigos de idioma"
     },
     "description": {
-      "": "ISO 639-1: two-letter codes, one per language for ISO 639 macrolanguage",
-      "es": "ISO 639-1: "
+      "": "ISO 639-1: two-letter language codes",
+      "es": "ISO 639-1 códigos de idioma de dos letras"
     },
     "encoding": "utf-8",
     "format": "csv",
@@ -42,9 +59,10 @@
     }],
     "schema": {
       "fields": [{
-          "name": {
+          "name": "ISO language name",
+          "title": {
             "": "ISO language name",
-            "es": "ISO "
+            "es": "ISO Nombre del lenguaje"
           },
           "type": "string",
           "format": "default",
@@ -53,9 +71,10 @@
           }
         },
         {
-          "name": {
+          "name": "Native name (endonym)",
+          "title": {
             "": "Native name (endonym)",
-            "es": ""
+            "es": "Nombre nativo (endónimo)"
           },
           "type": "string",
           "format": "default"
@@ -66,9 +85,10 @@
           "format": "default"
         },
         {
-          "name": {
+          "name": "Notes",
+          "title": {
             "": "Notes",
-            "es": ""
+            "es": "Notas"
           },
           "type": "string",
           "format": "default"
