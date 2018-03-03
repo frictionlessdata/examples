@@ -2,6 +2,7 @@
 
 [![goodtables.io](https://goodtables.io/badge/github/frictionlessdata/example-data-packages.svg)](https://goodtables.io/github/frictionlessdata/example-data-packages)
 
+**English** | [Español](README_es.md)
 
 This repository contains example data packages to help you learn about [Frictionless Data](https://frictionlessdata.io/). The example data packages:
 
