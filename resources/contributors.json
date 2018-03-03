@@ -1,0 +1,14 @@
+"contributors": [
+  {
+    "title": "Joe Bloggs",
+    "email": "joe@example.com",
+    "path": "http://www.example.com/bloggs",
+    "role": "author",
+    "organization": "Bloggs and Associates"
+  },
+  {
+    "title": "Mary Shelley",
+    "email": "mshelly@example.com",
+    "role": "contributor"
+  }
+]
