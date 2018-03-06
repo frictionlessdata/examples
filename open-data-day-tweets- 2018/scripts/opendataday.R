@@ -5,11 +5,11 @@ library(twitteR)
 
 #Set up Twitter API and Access Tokens. Create this in dev.twitter.com
 
-api_key <- "kVc05z0RyofZrG9bnQqG7PN3r"
-api_secret <- "qAlNaiiDqsVNatEhKP4bFAR723qvjbQ9Kqe64uJrFAUuQn052Y"
+api_key <- ""
+api_secret <- ""
 
-access_token <- "147654165-qk0lgdfk93Sp7JO7wZxqCbbvBVUoBvHXOmAxblbW"
-access_secret <- "i4aUb8i5GrdeY51MlLVCekuNXbMeWTIU7EKmTJtAShqfe"
+access_token <- ""
+access_secret <- ""
 
 setup_twitter_oauth(api_key, api_secret, access_token, access_secret)
 
