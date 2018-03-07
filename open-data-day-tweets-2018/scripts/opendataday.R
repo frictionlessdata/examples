@@ -5,11 +5,10 @@ library(twitteR)
 
 #Set up Twitter API and Access Tokens. Create this in dev.twitter.com
 
-api_key <- ""
-api_secret <- ""
-
-access_token <- ""
-access_secret <- ""
+api_key <- "YOUR_API_KEY"
+api_secret <- "YOUR_API_SECRET"
+access_token <- "YOUR_ACCESS_TOKEN"
+access_secret <- "YOUR_ACCESS_SECRET"
 
 setup_twitter_oauth(api_key, api_secret, access_token, access_secret)
 
@@ -42,7 +41,7 @@ write.csv(alltweets_df, file="data/allopendatadaytweets.csv")
 
 library(dplyr)
 
-android_tweets <- dplyr::filter(alltweets_df, grepl("Twitter for Android", statusSource))
+android_tweets <- filter(alltweets_df, grepl("Twitter for Android", statusSource))
 tally(android_tweets)
 
 
@@ -55,7 +54,7 @@ library(dplyr)
 
 #filter out tweets with the github url in them, then read tweets for context
 
-github_resources <- dplyr::filter(alltweets_df, grepl("github.com", statusSource))
+github_resources <- filter(alltweets_df, grepl("github.com", statusSource))
 tally(github_resources)
 
 #analysis 3: where in the world did people send open data day tweets from?
@@ -75,6 +74,8 @@ library(leaflet)
 map <- leaflet() %>%
   addTiles() %>%
   addCircles(data = alltweets_df, lat = ~ latitude, lng = ~ longitude)
+
+#view map
 
 map
 
