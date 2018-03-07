@@ -33,7 +33,7 @@
   "name": "opendataday-tweets-2018",
   "title": "Open Data Day Tweets",
   "description": "A stripped-down version of open data day data mined from Twitter in March 2018. Data Brevity is as a result of  Twitter's Developer Policy.",
-  "homepage": "http://okfnlabs.org/blog/2018/03/08/open-data-day-tweets.html",
+  "homepage": "https://okfnlabs.org/blog/2018/03/08/open-data-day-tweets.html",
   "version": "1.0.0",
   "license": "Twitter Developer Policy",
   "author": "Serah Rono <serah.rono@okfn.org> (twitter.com/serahrono)"
