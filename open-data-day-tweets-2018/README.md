@@ -3,8 +3,6 @@
 
 [The 7th International Open Data Day](http://opendataday.org) was marked on March 3, 2018. On the day, people used the [#opendataday](https://twitter.com/hashtag/OpenDataDay) and [#odd18](https://twitter.com/hashtag/ODD18) hashtags to share insights from over 400 community events.
 
-![](docs/geotagged_tweets.png)
-
 ## The Data
 
 The data was obtained on March 7, 2018 from two hashtags on Twitter: [#opendataday](https://twitter.com/hashtag/OpenDataDay) and [#odd18](https://twitter.com/hashtag/ODD18). 
