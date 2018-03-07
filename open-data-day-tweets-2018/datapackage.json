@@ -1,17 +1,11 @@
 {
-  "profile": "data-package",
+  "profile": "tabular-data-package",
   "resources": [
     {
-      "name": "resource1",
+      "name": "opendataday-tweets",
       "path": "data/subsetofopendatadaytweets.csv",
       "schema": {
         "fields": [
-          {
-            "name": "rowid",
-            "type": "integer",
-            "format": "default",
-            "description": "row id"
-          },
           {
             "name": "tweetid",
             "type": "integer",
@@ -23,25 +17,14 @@
             "type": "integer",
             "format": "default",
             "description": "number of retweets"
+            "constraints": { 
+              "minimum": 0 
+            }
           }
         ]
       },
       "profile": "tabular-data-resource"
-    },
-    {
-      "name": "resource2",
-      "path": "scripts/opendataday.R",
-      "schema": {
-        "fields": []
-      }
-    },
-    {
-      "name": "resource3",
-      "path": "docs/geotagged_tweets.png",
-      "schema": {
-        "fields": []
-      }
-    }
+    }   
   ],
   "keywords": [
     "open data day",
@@ -51,7 +34,7 @@
   "title": "Open Data Day Tweets",
   "description": "A stripped-down version of open data day data mined from Twitter in March 2018. Data Brevity is as a result of  Twitter's Developer Policy.",
   "homepage": "http://okfnlabs.org/blog/2018/03/08/open-data-day-tweets.html",
-  "version": "1",
+  "version": "1.0.0",
   "license": "Twitter Developer Policy",
-  "author": "Serah Rono <twitter.com/serahrono>"
+  "author": "Serah Rono <serah.rono@okfn.org> (twitter.com/serahrono)"
 }
