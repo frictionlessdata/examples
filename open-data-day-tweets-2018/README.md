@@ -3,7 +3,7 @@
 
 [The 7th International Open Data Day](http://opendataday.org) was marked on March 3, 2018. On the day, people used the [#opendataday](https://twitter.com/hashtag/OpenDataDay) and [#odd18](https://twitter.com/hashtag/ODD18) hashtags to share insights from over 400 community events.
 
-## The Data
+## Data
 
 The data was obtained on March 7, 2018 from two hashtags on Twitter: [#opendataday](https://twitter.com/hashtag/OpenDataDay) and [#odd18](https://twitter.com/hashtag/ODD18). 
 
@@ -14,12 +14,11 @@ This data package contains a [stripped-down version](data/subsetofopendatadaytwe
 
 .
 
-## Getting and Updating the data
+## Preparation
 
 To obtain / update the data, you'll need
 
-- R ([installation instructions](https://www.r-project.org))
-- The TwitteR package ([installation instructions](https://cran.r-project.org/web/packages/twitteR/README.html))
+- R v3.4.3 ([installation instructions](https://www.r-project.org))
 - Twitter API and access tokens from [http://apps.twitter.com](http://apps.twitter.com)
 
 Run [scripts/opendataday.R](scripts/opendataday.R) to obtain your own copy of the data and read the blog post detailing the data collection, analysis and publishing process for this data package here.
