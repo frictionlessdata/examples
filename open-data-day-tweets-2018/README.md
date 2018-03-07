@@ -18,7 +18,7 @@ To obtain / update the data, you'll need
 - R v3.4.3 ([installation instructions](https://www.r-project.org))
 - Twitter API and access tokens from [http://apps.twitter.com](http://apps.twitter.com)
 
-Run [scripts/opendataday.R](scripts/opendataday.R) to obtain your own copy of the data and read the blog post detailing the data collection, analysis and publishing process for this data package here.
+Run [scripts/opendataday.R](scripts/opendataday.R) to obtain your own copy of the data and read the blog post detailing the data collection, analysis and publishing process for this data package [here](http://okfnlabs.org/blog/2018/03/08/open-data-day-tweets.html).
 
 ## License
 
