@@ -16,7 +16,7 @@
             "name": "retweetCount",
             "type": "integer",
             "format": "default",
-            "description": "number of retweets"
+            "description": "number of retweets",
             "constraints": { 
               "minimum": 0 
             }
@@ -36,5 +36,5 @@
   "homepage": "https://okfnlabs.org/blog/2018/03/08/open-data-day-tweets.html",
   "version": "1.0.0",
   "license": "Twitter Developer Policy",
-  "author": "Serah Rono <serah.rono@okfn.org> (twitter.com/serahrono)"
+  "author": "Serah Rono <serah.rono@okfn.org> (https://twitter.com/serahrono)"
 }
