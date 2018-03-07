@@ -1,4 +1,3 @@
-
 # Open Data Day 2018 Tweets 
 
 [The 7th International Open Data Day](http://opendataday.org) was marked on March 3, 2018. On the day, people used the [#opendataday](https://twitter.com/hashtag/OpenDataDay) and [#odd18](https://twitter.com/hashtag/ODD18) hashtags to share insights from over 400 community events.
@@ -12,8 +11,6 @@ This data package contains a [stripped-down version](data/subsetofopendatadaytwe
 - an [R script](scripts/opendataday.R) used to mine Open Data Day tweets via the Twitter Search API
 - a [simple map](docs/geotagged_tweets.png) generated from the analysis of tweets with geotagged information
 
-.
-
 ## Preparation
 
 To obtain / update the data, you'll need
@@ -22,7 +19,6 @@ To obtain / update the data, you'll need
 - Twitter API and access tokens from [http://apps.twitter.com](http://apps.twitter.com)
 
 Run [scripts/opendataday.R](scripts/opendataday.R) to obtain your own copy of the data and read the blog post detailing the data collection, analysis and publishing process for this data package here.
-
 
 ## License
 
