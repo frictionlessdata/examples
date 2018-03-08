@@ -12,8 +12,6 @@ This repository contains example data packages to help you learn about [Friction
 
 The Guides are a great place to [start to learn](https://frictionlessdata.io/guides/). Alternatively, dive in and open a data package directory, view the `README.md`, then view the `datapackage.json` to understand the data.
 
-*Warning: some data packages are out-of-date. (See [Issue #4](https://github.com/frictionlessdata/example-data-packages/issues/4))*
-
 ## Data Packages
 
 The `datapackage.json` will describe the [data package](https://frictionlessdata.io/specs/data-package/) as a whole, and one or more [data resources](https://frictionlessdata.io/specs/data-resource/) (each optionally with a [schema](https://frictionlessdata.io/specs/data-resource/#resource-schemas) or a [view](https://frictionlessdata.io/specs/views/)).

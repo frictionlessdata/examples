@@ -12,8 +12,6 @@ Este repositorio contiene ejemplos de los paquetes de datos para ayudarte a apre
 
 Las guías son una excelente forma de [empezar a aprender](https://frictionlessdata.io/guides/). Otra forma sería abriendo el directorio de los paquetes de datos, vea los `README.md`, luego vea el `datapackage.json` para entender el contenido.
 
-*Advertencia: algunos paquetes de datos están desactualizados. (Vea el [Issue #4](https://github.com/frictionlessdata/example-data-packages/issues/4))*
-
 ## Paquete de Datos
 
 El `datapackage.json` describirá el [contenido del paquete](https://frictionlessdata.io/specs/data-package/) como un todo, y uno o más [recurso del contenido](https://frictionlessdata.io/specs/data-resource/) (cada uno puede que tenga su [esquema](https://frictionlessdata.io/specs/data-resource/#resource-schemas) o su [visualizacion](https://frictionlessdata.io/specs/views/)).
