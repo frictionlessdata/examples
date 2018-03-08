@@ -1,9 +1,0 @@
-"dialect": {
-  "delimiter": ",",
-  "lineTerminator": "\r\n",
-  "quoteChar": "\"",
-  "doubleQuote": true,
-  "skipInitialSpace": true,
-  "header": true,
-  "caseSensitiveHeader": false
-}
