@@ -1,0 +1,9 @@
+{
+"delimiter": "\t",
+"lineTerminator": "\r\n",
+"quoteChar": "\"",
+"doubleQuote": true,
+"skipInitialSpace": true,
+"header": true,
+"caseSensitiveHeader": false
+}
