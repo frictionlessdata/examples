@@ -10,7 +10,6 @@ This data package is used in the Frictionless Data [Field Guide](https://frictio
 
 ## License
 
-No known copyright. [Contact us](https://github.com/frictionlessdata/example-data-packages/issues/new) if
-you are aware of any copyright in the data.
+No known copyright. [Contact us](https://github.com/frictionlessdata/example-data-packages/issues/new) if you are aware of any copyright in the data.
 
 This data package is available under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
