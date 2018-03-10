@@ -25,6 +25,7 @@ A short description of the dataset. The first sentence and the first paragraph s
 - What does “null” mean?  Unknown, missing or not applicable? If not described in the schema
 
 ### Publication processes
+
 Provide information that may assist the reader in determining if the data is fit for their purpose. E.g.
 
 - what error corrections were performed
@@ -38,16 +39,20 @@ Provide information that may assist the reader in determining if the data is fit
 - link to a data quality statement
 
 ## Support
+
 - who can people contact to ask questions and provide feedback about the data
 - are their any social networks that encourage and support the use of the data? E.g. Meet-ups, Twitter, Discussion forums.
 
 ## Known usage
+
 Describe where the data is used in reports, analysis or visualisations.
 
 ## License and Attribution
+
 License information should be included for each data table and the data package can be added using the table properties and data package properties commands. If this is insufficient to explain the licensing, then provide additional details here.
 
 Provide any preferred attribution statement.
 
 ## Preparation
+
 Your data may be prepared by a community of volunteers. If relevant, provide instructions on how to run any preparation and processing scripts to generate the data.

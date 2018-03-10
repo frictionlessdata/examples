@@ -2,7 +2,7 @@
   "profile": "tabular-data-package",
   "name": "inflation",
   "title": "Annual inflation by GDP deflator and consumer prices",
-  "description": "Annual growth rate of the GDP implicit deflator and Inflation measured by the consumer price inde",
+  "description": "Annual growth rate of the GDP implicit deflator and Inflation measured by the consumer price index",
   "resources": [{
       "profile": "tabular-data-resource",
       "name": "inflation-gdp",
