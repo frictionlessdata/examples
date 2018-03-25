@@ -128,3 +128,11 @@ To join them, please read [`CONTRIBUTING.md`](.github/CONTRIBUTING.md) for detai
 Data Packages in this project are licensed as specified in each individual `datapackage.json` file.  If a license is not specified, it is provided under a [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) Public Domain Dedication.
 
 The code in this project, unless otherwise noted, is licensed  as described in [`LICENSE.md`](LICENSE.md).
+
+## Other Data Package Examples
+
+Other sources of data package examples include:
+
+- https://github.com/datapackage-examples
+
+Know of more? [Let us know](https://github.com/frictionlessdata/example-data-packages/issues/new)
