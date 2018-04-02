@@ -1,1 +1,1 @@
-Test data for foreign keys across data packages
+Data package that references data via a URL
