@@ -10,7 +10,7 @@ This repository contains example data packages to help you learn about [Friction
 - support the Frictionless Data [Guides](https://frictionlessdata.io/guides/)
 - demonstrate Frictionless Data [Patterns](https://frictionlessdata.io/specs/patterns/) - ways to solve common problems that are not (yet) in the specification
 
-The Guides are a great place to [start to learn](https://frictionlessdata.io/guides/). Alternatively, dive in and open a data package directory, view the `README.md`, then view the `datapackage.json` to understand the data.
+The Frictionless Data [Field Guide](https://frictionlessdata.io/field-guide/) and [other Guides](https://frictionlessdata.io/guides/) are great places to start to learn. Alternatively, dive in and open a data package directory, view the `README.md`, then view the `datapackage.json` to understand the data.
 
 ## Data Packages
 
