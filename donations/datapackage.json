@@ -20,12 +20,12 @@
           "required": true,
           "minimum": "0"
         },
-        "title": "Donatation Amount"
+        "title": "Donation Amount"
       }, {
         "name": "code",
         "type": "string",
         "format": "default",
-        "title": "Donatation Code",
+        "title": "Donation Code",
         "constraints": {
           "required": true
         }
