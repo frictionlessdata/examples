@@ -17,7 +17,7 @@
 # validate datapackages
 
 datapackages:
-  - countries-and-currencies/datapackage.json
+#  - countries-and-currencies/datapackage.json
 #  - cpi/datapackage.json
 #  - donation-codes/datapackage.json
   - donation-codes-via-url/datapackage.json
