@@ -25,13 +25,13 @@ datapackages:
 #  - geo-countries/datapackage.json     Goodtables only validates tabular data
   - finance-vix/datapackage.json
   - geo-lat-lon-as-numbers/datapackage.json
-  - geo-location-fk/datapackage.json
+#  - geo-location-fk/datapackage.json
   - geo-location-uri/datapackage.json
   - geopoint-array/datapackage.json
   - geopoint-default/datapackage.json
-  - geopoint-object/datapackage.json
-#  - gross-domestic-product-2014/datapackage.json
-#  - gross-domestic-product-all/datapackage.json
+#  - geopoint-object/datapackage.json
+  - gross-domestic-product-2014/datapackage.json
+  - gross-domestic-product-all/datapackage.json
 #  - inflation/datapackage.json
 #  - iso-639-1-language-codes/datapackage.json  Language pattern not implemented in Goodtables.io
 #  - periodic-table/datapackage.json
