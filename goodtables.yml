@@ -20,7 +20,7 @@ datapackages:
   - countries-and-currencies/datapackage.json # causes internal error in Goodtables
   - cpi/datapackage.json
   - donation-codes/datapackage.json
-#  - donation-codes-via-url/datapackage.json
+  - donation-codes-via-url/datapackage.json
 #  - donations/datapackage.json    Table Schema: Foreign Keys to Data Packages pattern is not implemented Goodtables.io 
 #  - geo-countries/datapackage.json     Goodtables only validates tabular data
 #  - finance-vix/datapackage.json
