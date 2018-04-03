@@ -2,7 +2,6 @@
   "profile": "tabular-data-package",
   "name": "countries-and-currencies",
   "title": "Countries and Currencies",
-  "path": "data/currencies.csv",
   "version": "v0.1.0",
   "licenses": [
     {
@@ -16,6 +15,7 @@
       "profile": "tabular-data-resource",
       "name": "currencies",
       "title": "Currencies",
+      "path": "data/currencies.csv",
       "encoding": "utf-8",
       "format": "csv",
       "mediatype": "text/csv",
