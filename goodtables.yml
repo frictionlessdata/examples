@@ -32,10 +32,10 @@ datapackages:
 #  - geopoint-object/datapackage.json
   - gross-domestic-product-2014/datapackage.json
   - gross-domestic-product-all/datapackage.json
-#  - inflation/datapackage.json
+  - inflation/datapackage.json
 #  - iso-639-1-language-codes/datapackage.json  Language pattern not implemented in Goodtables.io
-#  - periodic-table/datapackage.json
-#  - open-data-day-tweets-2018/datapackage.json
+  - periodic-table/datapackage.json
+  - open-data-day-tweets-2018/datapackage.json
 #  - simple-geojson/datapackage.json     Goodtables only validates tabular data
 #  - world-continents-topojson/datapackage.json    Goodtables only validates tabular data
 #  - text-file/datapackage.json    .txt file format not supported by Goodtables.io
