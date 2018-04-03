@@ -1,1 +1,1 @@
-Data package that references data via a URL
+Data package that references its data, schema and dialect via URLs
