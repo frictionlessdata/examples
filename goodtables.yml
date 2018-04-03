@@ -23,7 +23,7 @@ datapackages:
   - donation-codes-via-url/datapackage.json
 #  - donations/datapackage.json    Table Schema: Foreign Keys to Data Packages pattern is not implemented Goodtables.io 
 #  - geo-countries/datapackage.json     Goodtables only validates tabular data
-#  - finance-vix/datapackage.json
+  - finance-vix/datapackage.json
 #  - geo-lat-lon-as-numbers/datapackage.json
 #  - geo-location-fk/datapackage.json
 #  - geo-location-uri/datapackage.json
