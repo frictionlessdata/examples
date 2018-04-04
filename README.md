@@ -73,7 +73,7 @@ A resources directory contains a template [`README.md`](https://github.com/frict
 
 ### `README.md` template
 
-In this repository, each data package must have a `README.md`. The `README.md` should follow [good practices](https://frictionlessdata.io/guides/publish-faq/#readme).
+In this repository, each data package must have a [`README.md`](https://github.com/frictionlessdata/example-data-packages/blob/master/resources/README-template.md). The `README.md` should follow [good practices](https://frictionlessdata.io/guides/publish-faq/#readme).
 
 ### `datapackage.json` snippets
 

@@ -73,7 +73,7 @@ Los recursos del directorio contienen la planilla [`README.md`](https://github.c
 
 ### Planilla `README.md`
 
-En este repositorio, cada contenido de paquete debe tener un `README.md`. El `README.md` debe tener [buena legibilidad](https://frictionlessdata.io/guides/publish-faq/#readme).
+En este repositorio, cada contenido de paquete debe tener un [`README.md`](https://github.com/frictionlessdata/example-data-packages/blob/master/resources/README-template.md). El `README.md` debe tener [buena legibilidad](https://frictionlessdata.io/guides/publish-faq/#readme).
 
 ### Fragmentos de `datapackage.json`
 
