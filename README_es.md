@@ -4,7 +4,7 @@
 
 [English](README.md) | **Español**
 
-Este repositorio contiene ejemplos de los paquetes de datos para ayudarte a aprender sobre el [Frictionless Data](https://frictionlessdata.io/). Un ejemplo de los contenido de los paquetes:
+Este repositorio contiene [ejemplos de los paquetes de datos](https://github.com/frictionlessdata/example-data-packages/blob/master/datapackage-index.md) para ayudarte a aprender sobre el [Frictionless Data](https://frictionlessdata.io/). Un ejemplo de los contenido de los paquetes:
 
 - ilustraciones sobre los paquetes actuales con Frictionless Data [Especificaciones](https://frictionlessdata.io/specs/)
 - ayuda sobre Frictionless Data [Guías](https://frictionlessdata.io/guides/)

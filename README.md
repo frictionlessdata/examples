@@ -4,7 +4,7 @@
 
 **English** | [Español](README_es.md)
 
-This repository contains example data packages to help you learn about [Frictionless Data](https://frictionlessdata.io/). The example data packages:
+This repository contains [example data packages](https://github.com/frictionlessdata/example-data-packages/blob/master/datapackage-index.md) to help you learn about [Frictionless Data](https://frictionlessdata.io/). The example data packages:
 
 - illustrate the current Frictionless Data [Specification](https://frictionlessdata.io/specs/)
 - support the Frictionless Data [Guides](https://frictionlessdata.io/guides/)
