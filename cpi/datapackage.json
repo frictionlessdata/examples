@@ -16,6 +16,7 @@
   }],
   "resources": [{
     "path": "data/cpi.csv",
+    "name": "cpi",
     "profile": "tabular-data-resource",
     "schema": {
       "fields": [{

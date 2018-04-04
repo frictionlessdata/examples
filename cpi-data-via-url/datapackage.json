@@ -16,6 +16,7 @@
   }],
   "resources": [{
     "path": "https://raw.githubusercontent.com/frictionlessdata/example-data-packages/master/cpi/data/cpi.csv",
+    "name": "cpi",
     "profile": "tabular-data-resource",
     "schema": {
       "fields": [{
