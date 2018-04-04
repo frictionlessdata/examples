@@ -18,8 +18,7 @@
           },
           {
             "name": "Year",
-            "type": "date",
-            "format": "%Y"
+            "type": "year"
           },
           {
             "name": "Inflation",
@@ -42,8 +41,7 @@
           },
           {
             "name": "Year",
-            "type": "date",
-            "format": "%Y"
+            "type": "year"
           },
           {
             "name": "Inflation",
