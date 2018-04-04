@@ -77,7 +77,7 @@ In this repository, each data package must have a [`README.md`](https://github.c
 
 ### `datapackage.json` snippets
 
-JSON snippets provide a fragment of a `datapackage.json` file to help you learn about that specific property or cut and paste into your own data package. E.g. `licenses.json` could include JSON for each [recommended Open Definition conformant license](http://opendefinition.org/licenses/#conformant-licenses).
+JSON snippets provide a fragment of a `datapackage.json` file to help you learn about that specific property or cut and paste into your own data package. E.g. [`licenses.json`](https://github.com/frictionlessdata/example-data-packages/blob/master/resources/licenses.json) could include JSON for each [recommended Open Definition conformant license](http://opendefinition.org/licenses/#conformant-licenses).
 
 ## Repository Structure
 

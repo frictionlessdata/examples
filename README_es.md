@@ -77,7 +77,7 @@ En este repositorio, cada contenido de paquete debe tener un [`README.md`](https
 
 ### Fragmentos de `datapackage.json`
 
-Los fragmentos de JSON proveen un archivo `datapackage.json` para ayudarte a aprender sobre una propiedad especifica o a copiar y pegar en tu propio contenido del paquete P.ej. `licenses.json` puede incluir un JSON para cada [recomendación de Open Definition conforme a su licencia](http://opendefinition.org/licenses/#conformant-licenses).
+Los fragmentos de JSON proveen un archivo `datapackage.json` para ayudarte a aprender sobre una propiedad especifica o a copiar y pegar en tu propio contenido del paquete P.ej. [`licenses.json`](https://github.com/frictionlessdata/example-data-packages/blob/master/resources/licenses.json) puede incluir un JSON para cada [recomendación de Open Definition conforme a su licencia](http://opendefinition.org/licenses/#conformant-licenses).
 
 ## Estructura del Repositorio
 
