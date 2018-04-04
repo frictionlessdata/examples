@@ -15,7 +15,7 @@
     "primaryKeys": ["office"],
     "format": "csv",
     "mediatype": "text/csv",
-    "encoding": "utf-8",
+    "encoding": "UTF-8",
     "licenses": [{
       "id": "CC0-1.0",
       "title": "CC0 1.0",

@@ -13,7 +13,7 @@
     "path": "https://raw.githubusercontent.com/frictionlessdata/example-data-packages/master/donation-codes/data/donation-codes.csv",
     "name": "donation-codes",
     "title": "Donation Codes",
-    "encoding": "utf-8",
+    "encoding": "UTF-8",
     "format": "csv",
     "mediatype": "text/csv",
     "schema": "https://raw.githubusercontent.com/frictionlessdata/example-data-packages/master/donation-codes-schema/tableschema.json",

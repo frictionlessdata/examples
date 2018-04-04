@@ -50,7 +50,7 @@
       "": "ISO 639-1: two-letter language codes",
       "es": "ISO 639-1 códigos de idioma de dos letras"
     },
-    "encoding": "utf-8",
+    "encoding": "UTF-8",
     "format": "csv",
     "mediatype": "text/csv",
     "sources": [{

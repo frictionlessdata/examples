@@ -12,7 +12,7 @@
     "title": "Offices",
     "description": "Hot Desk Offices",
     "profile": "tabular-data-resource",
-    "encoding": "utf-8",
+    "encoding": "UTF-8",
     "format": "csv",
     "mediatype": "text/csv",
     "licenses": [{
@@ -51,7 +51,7 @@
     "path": "data/gazetteer.csv",
     "name": "gazetteer",
     "profile": "tabular-data-resource",
-    "encoding": "utf-8",
+    "encoding": "UTF-8",
     "format": "csv",
     "mediatype": "text/csv",
     "licenses": [{

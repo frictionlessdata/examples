@@ -2,7 +2,7 @@
   "profile": "tabular-data-package",
   "resources": [{
     "profile": "tabular-data-resource",
-    "encoding": "utf-8",
+    "encoding": "UTF-8",
     "schema": {
       "fields": [{
         "name": "id",

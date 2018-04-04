@@ -13,7 +13,7 @@
     "profile": "tabular-data-resource",
     "format": "csv",
     "mediatype": "text/csv",
-    "encoding": "utf-8",
+    "encoding": "UTF-8",
     "schema": {
       "fields": [{
           "name": "atomic number",
