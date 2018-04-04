@@ -29,6 +29,7 @@
     },
     {
       "profile": "tabular-data-resource",
+      "name": "inflation-consumer-gdp",
       "path": "data/inflation-consumer.csv",
       "schema": {
         "fields": [{
