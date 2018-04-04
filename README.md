@@ -69,7 +69,7 @@ With each commit, the `datapackage.json` file is [formatted to make it easier to
 
 ## Resources
 
-A resources directory contains a template `README.md` and example `datapackage.json` snippets.
+A resources directory contains a template [`README.md`](https://github.com/frictionlessdata/example-data-packages/blob/master/resources/README-template.md) and example `datapackage.json` snippets.
 
 ### `README.md` template
 

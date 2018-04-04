@@ -69,7 +69,7 @@ Con cada ajuste, el archivo `datapackage.json` será [formateado para ser más f
 
 ## Recursos
 
-Los recursos del directorio contienen la planilla `README.md` y fragmentos de `datapackage.json`.
+Los recursos del directorio contienen la planilla [`README.md`](https://github.com/frictionlessdata/example-data-packages/blob/master/resources/README-template.md) y fragmentos de `datapackage.json`.
 
 ### Planilla `README.md`
 
