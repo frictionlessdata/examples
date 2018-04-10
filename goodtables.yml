@@ -14,8 +14,12 @@
 #    schema: australian-open-data-portals/tableschema.json
 #  - source: pathway/data/all_organisations_by_country.csv
 
-# validate datapackages
 
+# validate a limited number of rows or -1 for all rows
+settings:
+  row_limit: -1
+  
+# validate datapackages
 datapackages:
   - countries-and-currencies/datapackage.json # causes internal error in Goodtables
   - cpi/datapackage.json
