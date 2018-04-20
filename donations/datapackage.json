@@ -45,7 +45,7 @@
     "foreignKeys": [{
       "fields": ["code"],
       "reference": {
-        "datapackage": "https://raw.githubusercontent.com/frictionlessdata/example-data-packages/master/donation-codes/datapackage.json",
+        "package": "https://raw.githubusercontent.com/frictionlessdata/example-data-packages/master/donation-codes/datapackage.json",
         "resource": "donation-codes",
         "fields": ["donation code"]
       }
