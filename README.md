@@ -14,7 +14,7 @@ The Frictionless Data [Field Guide](https://frictionlessdata.io/field-guide/) an
 
 ## Data Packages
 
-The `datapackage.json` will describe the [data package](https://frictionlessdata.io/specs/data-package/) as a whole, and one or more [data resources](https://frictionlessdata.io/specs/data-resource/) (each optionally with a [schema](https://frictionlessdata.io/specs/data-resource/#resource-schemas) or a [view](https://frictionlessdata.io/specs/views/)).
+The `datapackage.json` will describe the [data package](https://frictionlessdata.io/specs/data-package/) as a whole, and describe one or more [data resources](https://frictionlessdata.io/specs/data-resource/) (each optionally with a [schema](https://frictionlessdata.io/specs/data-resource/#resource-schemas) or a [view](https://frictionlessdata.io/specs/views/)).
 
 If all the data is tabular (i.e. [CSV files](https://frictionlessdata.io/guides/csv/)), then it will be described as a [tabular data package](https://frictionlessdata.io/specs/tabular-data-package/) with one or more [tabular data resources](https://frictionlessdata.io/specs/tabular-data-package/) each with a [table schema](https://frictionlessdata.io/specs/table-schema/) and, if needed, a [CSV dialect](https://frictionlessdata.io/specs/csv-dialect/).
 
@@ -47,7 +47,7 @@ With each commit to the repository, the data package is validated using [goodtab
 
 *Ideally an individual badge could also be awarded for each data package and displayed in its `README.md` file but this is not possible yet. (See goodtables.io [issue #285](https://github.com/frictionlessdata/goodtables.io/issues/285))*
 
-The validation is controlled by the [goodtables.yaml](https://github.com/frictionlessdata/example-data-packages/blob/master/goodtables.yml) file. It should be configured to test all the data packages in the repository. This can be changed if your working locally to [validate specific data packages](https://github.com/frictionlessdata/goodtables.io/blob/master/docs/goodtables_yml.md).
+The validation is controlled by the [goodtables.yaml](https://github.com/frictionlessdata/example-data-packages/blob/master/goodtables.yml) file. It should be configured to test all the data packages in the repository. This can be changed if your working locally to [validate specific data packages](https://github.com/frictionlessdata/goodtables.io/blob/master/docs/configuration/index.md).
 
 ### Local validation
 

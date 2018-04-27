@@ -14,7 +14,7 @@ Las guías son una excelente forma de [empezar a aprender](https://frictionlessd
 
 ## Paquete de Datos
 
-El `datapackage.json` describirá el [contenido del paquete](https://frictionlessdata.io/specs/data-package/) como un todo, y uno o más [recurso del contenido](https://frictionlessdata.io/specs/data-resource/) (cada uno puede que tenga su [esquema](https://frictionlessdata.io/specs/data-resource/#resource-schemas) o su [visualizacion](https://frictionlessdata.io/specs/views/)).
+El `datapackage.json` describirá el [contenido del paquete](https://frictionlessdata.io/specs/data-package/) como un todo, y describe uno o más [recurso del contenido](https://frictionlessdata.io/specs/data-resource/) (cada uno puede que tenga su [esquema](https://frictionlessdata.io/specs/data-resource/#resource-schemas) o su [visualizacion](https://frictionlessdata.io/specs/views/)).
 
 Si todo el contenido es tabular (es decir [archivos CSV](https://frictionlessdata.io/guides/csv/)), entonces será describido como un [paquete de datos tabular](https://frictionlessdata.io/specs/tabular-data-package/) con uno o más [recursos de contenido tabular](https://frictionlessdata.io/specs/tabular-data-package/) todos con su [tabla de esquemas](https://frictionlessdata.io/specs/table-schema/) y, de ser necesario, un [CSV dialect](https://frictionlessdata.io/specs/csv-dialect/).
 
@@ -47,7 +47,7 @@ Con cada ajuste al repositorio, el paquete de datos será aprobado utilizando [g
 
 *Idealmente se otorgará una insignia por cada paquete de datos y será visible en su archivo `README.md`  pero esto aún no es posible. (Vealo en goodtables.io [issue #285](https://github.com/frictionlessdata/goodtables.io/issues/285))*
 
-La aprobación es controlada por el archivo [goodtables.yaml](https://github.com/frictionlessdata/example-data-packages/blob/master/goodtables.yml). Este debe ser configurado para que valide cada contenido de los paquetes en el repositorio. Esto podrá ser cambiado si trabaja localmente para [validar el contenido de un paquete en especifico](https://github.com/frictionlessdata/goodtables.io/blob/master/docs/goodtables_yml.md).
+La aprobación es controlada por el archivo [goodtables.yaml](https://github.com/frictionlessdata/example-data-packages/blob/master/goodtables.yml). Este debe ser configurado para que valide cada contenido de los paquetes en el repositorio. Esto podrá ser cambiado si trabaja localmente para [validar el contenido de un paquete en especifico](https://github.com/frictionlessdata/goodtables.io/blob/master/docs/configuration/index.md).
 
 ### Validación Local
 
